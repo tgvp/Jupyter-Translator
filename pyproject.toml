@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jupyter-translator"
+version = "0.1.0"
+description = "Translate Jupyter Notebooks while preserving code cells, LaTeX, and Markdown formatting"
+authors = [
+    { name = "Thiago de Paiva" }
+]
+dependencies = [
+    "tqdm>=4.66.0",
+    "nbformat>=5.9.0",
+    "deep-translator>=1.11.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/tgvp/Jupyter-Translator"
+Source = "https://github.com/tgvp/Jupyter-Translator"
+
+[project.scripts]
+jupyter-translator = "jupyter_translator.cli:main"
