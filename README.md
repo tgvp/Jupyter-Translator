@@ -5,7 +5,8 @@ Translate the textual content of Jupyter notebooks while **preserving code cells
 
 - ✅ Default translation **PT → EN** (configurable via `--source/--target`)
 - ✅ Keeps code cells intact but also translates inline Python comments
-- ✅ Fixes Markdown spacing (**bold**/*italic*/``inline``) and preserves LaTeX (`$...$`, `$$...$$`)
+- ✅ Preserves Markdown formatting (**bold**/*italic*/``inline``)
+- ✅ Preserves LaTeX (`$...$`, `$$...$$`)
 - ✅ Domain glossary
 - ✅ Optional: translate textual outputs with `--translate-outputs`
 
